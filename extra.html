@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-screen-2xl mx-auto">
+    <header class="relative">
+        <!-- Animated Background -->
+        <div class="h-full bg-gray-900 absolute inset-0 overflow-hidden z-0">
+            <div class="absolute inset-0">
+                <div class="w-2 h-2 bg-white rounded-full absolute animate-ping" style="top: 20%; left: 30%;"></div>
+                <div class="w-2 h-2 bg-white rounded-full absolute animate-ping" style="top: 50%; left: 70%;"></div>
+                <div class="w-2 h-2 bg-white rounded-full absolute animate-ping" style="top: 80%; left: 40%;"></div>
+                <div class="w-2 h-2 bg-white rounded-full absolute animate-ping" style="top: 35%; left: 15%;"></div>
+            </div>
+        </div>
+        
+        <!-- Content Section -->
+        <div class="relative z-10">
+            <!-- Navbar Start -->
+            <nav class="mt-4">
+                <div class="navbar bg-[#344c36] rounded-full mx-auto mt-12">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul
+                                tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Testimonials</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost text-5xl text-white font-semibold uppercase mb-3">
+                            <img class="w-14 h-14" src="images/6531811.png" alt=""> 
+                            AHMED
+                            <span class="text-[#FFAF00]">.</span></a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 md:text-white font-medium text-xl">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn bg-white rounded-3xl font-bold text-lg text-[#344c36] mr-2">Contact Me</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+            <div class="md:flex items-center gap-16 justify-evenly">
+                <!-- Introduction Part -->
+                <div class="ml-4 text-white">
+                    <p class="text-4xl text-white font-semibold mb-48">Hello There!</p>
+                    <h1 class="text-6xl font-bold">I'm <span class="text-[#FFAF00]">Shisher Ahmed</span>, <br>
+                    Professional Graphics Designer <br>
+                    Based in Bangladesh </h1>
+                    <p class="mt-4">I'm a passionate and experienced graphic designer with 3 years of professional experience, <br> specializing in branding, web design, and digital illustrations. I excel at creating visually impactful <br> designs that align with client goals and target audiences. With expertise in Adobe Creative Suite, <br> typography, and color theory, I craft cohesive visual identities, engaging user interfaces, and eye <br> catching marketing materials. I'm dedicated to staying up-to-date with the latest design trends <br> to ensure my work remains fresh and innovative.</p>
+                      <button class="btn hover:text-black rounded-xl font-semibold text-xl w-1/4 mt-4 bg-transparent text-white">Hire Me</button>
+                </div>
+                <!-- Image Part -->
+                <div class="md:w-1/2 relative">
+                    <img class="" src="images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- About section start -->
+        <section class=" bg-gray-200">
+            <div class="md:flex gap-32">
+              <!-- image part -->
+              <div class="w-full h-1/2 mt-10">
+               <img class="w-full" src="images/Group.png" alt="">
+              </div>
+              <!-- description part -->
+              <div class="mt-10">
+                  <h4 class="text-4xl font-semibold flex items-center ml-6 ">
+  
+                    <span class="w-7 h-1 mr-5 bg-[#FFAF00] rounded-2xl"></span>
+                    About Me
+                  </h4>
+                  <h1 class="text-6xl font-bold mt-20 mb-10 ml-6">
+                      Who is <span class="text-[#FFAF00]">Shisher Ahmed ?</span>
+                  </h1>
+                  <p class="w-3/4 text-lg ml-6">
+                   I'm a passionate and experienced graphic designer with 3 years of professional experience,
+                   specializing in branding, web design, and digital illustrations.I excel at creating visually impactful
+                   designs that align with client goals and target audiences.
+                  </p>
+              <!-- cards -->
+              <div class="flex gap-10 mt-4 ml-6">
+                <div>
+                  <h1 class="text-[#FFAF00] font-bold text-4xl">600+</h1>
+                  <p class="mt-4 text-xl font-semibold">Project Completed</p>
+                </div>
+                <div>
+                  <h1 class="text-[#FFAF00] font-bold text-4xl">15+</h1>
+                  <p class="mt-4 text-xl font-semibold">Industry Covered</p>
+                </div>
+                <div>
+                  <h1 class="text-[#FFAF00] font-bold text-4xl">3+</h1>
+                  <p class="mt-4 text-xl font-semibold">Years of experience</p>
+                </div>
+              </div>
+  
+              <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-4 ml-6 bg-gray-300 rounded-2xl">Download CV <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg></button>
+  
+              </div>
+  
+            </div>
+        </section>
+      <!-- About section end -->
+
+      
+
+</body>
+</html>
